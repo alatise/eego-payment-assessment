@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaThin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaSemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lufga";
+  src: url("/assets/fonts/lufga/LufgaBlack.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your custom component classes */
+@layer components {
+  .btn-primary {
+    @apply bg-[#FFC700] text-black px-7 py-3.5 rounded-2xl font-semibold hover:bg-gray-100  transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply bg-[#FAFAF9] text-gray-800 px-7 py-3.5 rounded-2xl font-semibold hover:bg-gray-100 transition-colors duration-200;
+  }
+
+  #hero {
+    background: radial-gradient(
+      ellipse 50% 100% at 50% 50%,
+      rgba(234, 170, 8, 0.12) 0%,
+      rgba(254, 243, 199, 0.25) 25%,
+      rgba(255, 251, 235, 0.4) 50%,
+      #ffffff 100%
+    );
+  }
+}
+
+/* Your custom utility classes */
+@layer utilities {
+  .text-shadow {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+}

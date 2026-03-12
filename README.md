@@ -17,6 +17,11 @@ Before running the application, do the following:
 npm install
 
 ````
+Copy and paste this in the .env file
+CI_ENVIRONMENT = development
+
+database.default.DBDriver = SQLite3
+
 
 ### 2. Run the migration
 

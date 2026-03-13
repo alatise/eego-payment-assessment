@@ -98,7 +98,7 @@ $isPaid = $link['status'] === 'paid';
 </div>
 
 <!-- Success Modal -->
-<div id="success-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 ">
+<div id="success-modal" class="fixed inset-0 z-50 flex items-center justify-center bg-black/50 hidden ">
     <div class="bg-white rounded-2xl shadow-xl max-w-sm w-full mx-4 p-8 text-center">
 
         <!-- Checkmark -->
